@@ -25,16 +25,18 @@
     a:hover {
       color: #00b389;
     }
-    header {
-      position: fixed;
-      width: 100%;
-      background: #111;
-      padding: 1rem 2rem;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.8);
-      z-index: 1000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+  header {
+  position: sticky;
+  top: 0;
+  background: #111;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
     }
     header h1 {
       font-weight: 900;
@@ -318,7 +320,6 @@
   <section id="works" aria-label="Наші роботи">
     <h2>Наші роботи</h2>
     <p style="text-align:center; max-width:700px; margin: 0 auto 2rem;">
-      Клікайте на картинки, щоб легко замінити ваші фото в коді
     </p>
     <div class="gallery">
       <div class="gallery-item" tabindex="0" aria-label="Робота 1">
@@ -345,34 +346,34 @@
     <div class="price-cards">
       <article class="card" aria-label="Базовий пакет">
         <h3>Базовий</h3>
-        <p class="price">₴7,000</p>
+        <p class="price">₴3 074 | €70</p>
         <ul>
-          <li>Простий сайт-візитка</li>
-          <li>3 сторінки</li>
-          <li>Адаптивність мобільних</li>
-          <li>SEO базова оптимізація</li>
+          <li>Простий сайт</li>
+          <li>2 сторінки</li>
+          <li>Допомога з сайтом</li>
+          <li>Техпідтримка тиждень</li>
         </ul>
         <button>Замовити</button>
       </article>
       <article class="card" aria-label="Професійний пакет">
         <h3>Професійний</h3>
-        <p class="price">₴15,000</p>
+        <p class="price">₴6 591 | €140</p>
         <ul>
           <li>Інтернет-магазин або блог</li>
-          <li>До 10 сторінок</li>
-          <li>Інтеграція з соцмережами</li>
-          <li>Техпідтримка 3 місяці</li>
+          <li>До 5 сторінок</li>
+          <li>Доступ до коду</li>
+          <li>Техпідтримка 2 тижні</li>
         </ul>
         <button>Замовити</button>
       </article>
       <article class="card" aria-label="Ексклюзивний пакет">
         <h3>Ексклюзивний</h3>
-        <p class="price">₴30,000+</p>
+        <p class="price">₴10 925 | €230</p>
         <ul>
           <li>Онлайн казино, ігри</li>
-          <li>Інтеграції API, платіжні системи</li>
-          <li>Адмін панель та користувачі</li>
-          <li>Підтримка 6 місяців</li>
+          <li>Платіжні системи</li>
+          <li>Доступ до коду</li>
+          <li>Підтримка 1 місяць</li>
         </ul>
         <button>Замовити</button>
       </article>
@@ -399,7 +400,7 @@
 </main>
 
 <footer>
-  © 2024 DoubleV². Всі права захищені.
+  © 2024 DoubleV². Всі права захищені. Техпідтримка: @nikwin_TP 
 </footer>
 
 <script>
